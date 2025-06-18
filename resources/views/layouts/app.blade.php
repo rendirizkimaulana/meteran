@@ -120,7 +120,7 @@
         @yield('content')
     </main>
 
-    <!-- Footer -->
+        <!-- Footer -->
     <footer class="bg-primary text-white pt-5 pb-3">
         <div class="container">
             <div class="row">
@@ -151,7 +151,15 @@
                     <p class="small mb-1"><i class="bi bi-telephone-fill text-warning"></i> +62 21 1234 5678</p>
                     <p class="small"><i class="bi bi-envelope-fill text-warning"></i> info@citacontrac.co.id</p>
                 </div>
-# 
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold mb-3">Lokasi Kami</h6>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5744531446473!2d106.87790719999999!3d-6.2887064999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f29a44b0cbf7%3A0xbcf0d6fc2a8b8768!2sPT%20Citacontrac!5e0!3m2!1sen!2sid!4v1718420000000!5m2!1sen!2sid"
+                        width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        class="rounded shadow-sm">
+                    </iframe>
+                    <p class="small mt-2">Silakan kunjungi kantor kami untuk informasi lebih lanjut atau konsultasi langsung.</p>
+                </div>
             </div>
             <div class="text-center border-top pt-3 mt-3 small">
                 © 2023 PT Citacontrac. Hak Cipta Dilindungi.
@@ -178,4 +186,3 @@
 </script>
 </body>
 </html>
- NBVCX
