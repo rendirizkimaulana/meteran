@@ -1,14 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
 <div class="container">
-
-    {{-- Tombol kembali ke dashboard admin --}}
-    <div class="mb-3">
-        <a href="{{ route('admin.dashboard') }}" class="btn btn-secondary">
-            ← Kembali ke Dashboard
-        </a>
-    </div>
 
     <h4>Tambah Pertanyaan Kuiz</h4>
 

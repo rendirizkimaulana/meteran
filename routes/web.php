@@ -8,7 +8,7 @@ use App\Http\Controllers\QuizResultController;
 use App\Http\Controllers\UserQuizController;
 
 // Halaman depan
-Route::view('/', 'welcome');
+Route::view('/', 'home');
 
 // Autentikasi Laravel UI
 Auth::routes();
